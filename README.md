@@ -1,6 +1,8 @@
+[![Gem Version](https://badge.fury.io/rb/country_lookup.svg)](http://badge.fury.io/rb/country_lookup)
+
 # CountryLookup
 
-To validate country informations such as phone number, Postal code.It also help's in Prasing phone numbers based on country from a given string.
+To validate country informations such as phone number, Postal code.It also help's in Parsing phone numbers based on country from a given string.
 
 ## Installation
 

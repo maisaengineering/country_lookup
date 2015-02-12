@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jagadishwer Bathula"]
   spec.email         = ["bjagadishwer@maisasolutions.com"]
   spec.summary       = %q{To validate country informations}
-  spec.description   = %q{To validate country informations like phone number, country code, zipcode etc}
-  spec.homepage      = "http://www.maisasolutions.com/"
+  spec.description   = %q{To validate country informations such as phone number, Postal code.It also help's in Parsing phone numbers based on country from a given string.}
+  spec.homepage      = "https://github.com/maisaengineering/country_lookup"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
