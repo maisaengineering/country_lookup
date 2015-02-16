@@ -1,5 +1,6 @@
 module PhoneNumber
   extend self
+
   def extract(phone)
     unless phone.blank?
       phone.gsub!(/[^0-9]/, "")
@@ -32,4 +33,10 @@ module PhoneNumber
       end
     end
   end
+
+  def country_code(alpha2)
+    country = COUNTRIES[alpha2.upcase]
+    !country.blank? ? country.country_code.to_s : ""
+  end
+
 end
